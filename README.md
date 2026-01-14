@@ -20,10 +20,12 @@ This project demonstrates the security vulnerabilities of the **Model Context Pr
  
 ## Run the Gateway (Security Enabled):
 
+npx @modelcontextprotocol/inspector python gateway.py
+
 ## Test the Attack:
 
 ### Try calling delete_user with argument venkat.
 
 Result: BLOCKED by the gateway.
-npx @modelcontextprotocol/inspector python gateway.py
+
 
